@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>edu.stanford.protege</groupId>
-    <artifactId>protege-client</artifactId>
+    <artifactId>org.protege.editor.owl.client</artifactId>
     <version>3.0.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
@@ -109,6 +109,7 @@
                             com.fasterxml.uuid.*,
                             *
                         </Import-Package>
+                        <Update-Url>https://raw.githubusercontent.com/bdionne/protege-client/autoupdate/src/main/resources/update.properties</Update-Url>
                         <Include-Resource>{maven-resources}</Include-Resource>
                     </instructions>
                 </configuration>
